@@ -5,6 +5,7 @@
 
 * [Using build args](#using-build-args)
 * [Build and run](#build-and-run)
+* [Usage](#usage)
 
 <!-- vim-markdown-toc -->
 
@@ -22,4 +23,10 @@ Successfully tagged foo:latest...
 
 ```
 docker run -it e56719b352cf /bin/bash
+```
+
+## Usage
+Real time scoreboard of memory usage:
+```
+docker stats
 ```
