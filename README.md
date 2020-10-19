@@ -5,6 +5,7 @@
 
 * [Using build args](#using-build-args)
 * [Build and run](#build-and-run)
+* [Run with mounted local dir](#run-with-mounted-local-dir)
 * [Usage](#usage)
 
 <!-- vim-markdown-toc -->
@@ -23,6 +24,11 @@ Successfully tagged foo:latest...
 
 ```
 docker run -it e56719b352cf /bin/bash
+```
+
+## Run with mounted local dir
+```
+docker run -it --volume $PWD:/home/project e56719b352cf /bin/bash
 ```
 
 ## Usage
