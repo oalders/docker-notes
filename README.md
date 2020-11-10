@@ -23,12 +23,12 @@ Successfully tagged foo:latest...
 ```
 
 ```
-docker run -it e56719b352cf /bin/bash
+docker run -it foo:latest /bin/bash
 ```
 
 ## Run with mounted local dir
 ```
-docker run -it --volume $PWD:/home/project e56719b352cf /bin/bash
+docker run -it --volume $PWD:/home/project foo:latest /bin/bash
 ```
 
 ## Usage
